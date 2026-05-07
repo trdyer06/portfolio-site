@@ -17,6 +17,13 @@ body {
     font-style: normal;
 }
 
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
 .hero {
     display: flex;
     align-items: center;
@@ -69,7 +76,8 @@ h2 {
     border-top: 2px solid #2A2A2A;
 }
 
-.content {
+.project-content { 
+    font-family: "Montserrat", sans-serif;
     display: flex;
     width: 100%;
     gap: auto;
@@ -77,16 +85,36 @@ h2 {
 
 .project-description {
     display: block;
-    width: 50%;
+    width: 45%;
     line-height: 1.5;
 }
 
 .project-details {
     display: flex;
-    width: 40%;
-    margin-left: 5%;
+    width: 50%;
 }
 
-.project-details p {
+.project-details a {
+    height: 50px;
+    width: 45%;
     margin-left: auto;
+    align-items: center;
+    text-align: center;
+    background-color: #1A1A1A;
+}
+
+.project-details button {
+    width: 100%;
+    background-color: #1A1A1A;
+    font-family: "Montserrat", sans-serif;
+    color: #00FFB2;
+    border: solid 1px #00FFB2;
+}
+
+.project-details button:hover {
+    background-color: #2B2B2B;
+}
+
+.project-details p:hover {
+    color: #00D1B1;
 }
