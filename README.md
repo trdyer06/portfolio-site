@@ -7,7 +7,7 @@ A website displaying my software development projects.
 Clone the repository
 
 ```bash
-git clone
+git clone https://github.com/trdyer06/porfolio-site.git
 ```
 
 Open `index.html` in browser
