@@ -93,25 +93,36 @@ h2 {
 .project-details {
     display: flex;
     width: 50%;
-    gap: 20px;
+    margin-left: 3%;
+    gap: 20px; 
+}
+
+.row-links, .column-links {
+    display: flex;
+    width: 100%;
+    gap: 15px; /* Adds space between the buttons */
+}
+
+/* Puts the buttons side-by-side for Project 1 */
+.row-links {
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+/* Stacks the buttons vertically for Project 2 */
+.column-links {
+    flex-direction: column;
 }
 
 .project-details a {
+    display: flex;
     height: 50px;
-    width: 45%;
-    margin-left: auto;
-    align-items: center;
-    text-align: center;
-    background-color: #1A1A1A;
+    width: 100%;
 }
 
 .project-details img {
     height: auto;
     width: 45%;
-    margin-left: auto;
-    align-items: center;
-    text-align: center;
-    background-color: #1A1A1A;
 }
 
 .project-details button {
@@ -120,12 +131,6 @@ h2 {
     font-family: "Montserrat", sans-serif;
     color: #00FFB2;
     border: solid 1px #00FFB2;
-}
-
-.links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 .project-details button:hover {
