@@ -2,7 +2,7 @@
 
 A website displaying my software development projects.
 
-## Installation 
+## Installation
 
 Clone the repository
 
@@ -26,7 +26,7 @@ Open `index.html` in browser
 
 ### License
 
-The HTML, CSS, and JavaScript source code in this repository is licensed under the MIT License - see [LICENSE](LICENSE) for details. 
+The HTML, CSS, and JavaScript source code in this repository is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
 **However, the following personal assets are explicitly excluded from this license and remain Copyright &copy; 2026 Thomas Dyer. All rights reserved:**
 
