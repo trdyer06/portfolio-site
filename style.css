@@ -69,9 +69,10 @@ h2 {
 }
 
 .project {
-    display: flex;
+    display: block;
     gap: auto;
-    margin-left: 3%;
+    width: 95%;
+    margin-left: auto;
     padding: 15px 0;
     border-top: 2px solid #2A2A2A;
 }
@@ -92,10 +93,20 @@ h2 {
 .project-details {
     display: flex;
     width: 50%;
+    gap: 20px;
 }
 
 .project-details a {
     height: 50px;
+    width: 45%;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    background-color: #1A1A1A;
+}
+
+.project-details img {
+    height: auto;
     width: 45%;
     margin-left: auto;
     align-items: center;
@@ -109,6 +120,12 @@ h2 {
     font-family: "Montserrat", sans-serif;
     color: #00FFB2;
     border: solid 1px #00FFB2;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .project-details button:hover {
