@@ -1,0 +1,151 @@
+body {
+    background-color: black;
+    color:#00FFB2;
+    font-family: "Michroma", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* React mounts inside #root, so it takes over the flex-column job
+   that body does in the plain HTML version (keeps the footer at the bottom). */
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.michroma-regular {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: auto;
+    background-color: #2A2A2A;
+}
+
+.hero img {
+    width: 15%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.hero h3 {
+    width: 10%;
+}
+
+.hero p {
+    width: 55%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    background-color: #2A2A2A;
+}
+
+.contact p {
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+a {
+    color: #49A389;
+}
+
+h2 {
+    margin: 50px 0 15px 5%;
+}
+
+.project {
+    display: block;
+    gap: auto;
+    width: 95%;
+    margin-left: auto;
+    padding: 15px 0;
+    border-top: 2px solid #2A2A2A;
+}
+
+.project-content { 
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    width: 100%;
+    gap: auto;
+}
+
+.project-description {
+    display: block;
+    width: 45%;
+    line-height: 1.5;
+}
+
+.project-details {
+    display: flex;
+    width: 50%;
+    margin-left: 3%;
+    gap: 20px; 
+}
+
+.row-links, .column-links {
+    display: flex;
+    width: 100%;
+    gap: 15px; /* Adds space between the buttons */
+}
+
+/* Puts the buttons side-by-side for Project 1 */
+.row-links {
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+/* Stacks the buttons vertically for Project 2 */
+.column-links {
+    flex-direction: column;
+}
+
+.project-details a {
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+
+.project-details img {
+    height: auto;
+    width: 45%;
+}
+
+.project-details button {
+    width: 100%;
+    background-color: #1A1A1A;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #00FFB2;
+    border: solid 1px #00FFB2;
+}
+
+.project-details button:hover {
+    background-color: #2B2B2B;
+}
+
+.project-details p:hover {
+    color: #00D1B1;
+}
