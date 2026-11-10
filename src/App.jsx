@@ -21,7 +21,7 @@ const projects = [
     description:
       "Developed an interactive trivia application as my first project using JavaScript, learning the core principles of the language in real-time as I built. I implemented a dynamic 30-second timer and a multi-category selection system, which required a deep dive into event-driven programming. Creating the logic for the point tracking, high-scores, and streak counters helped me understand how to manage state and provide instant visual feedback to the user. While I am still refining my coding style, building this from scratch while teaching myself the syntax was a rewarding challenge that solidified my interest in front-end development.",
     technologies: "HTML, CSS, JavaScript, Git, Open Trivia Database API",
-    image: { src: "/images/gameScreen.png", alt: "Screenshot of Game Screen" },
+    image: { src: `${import.meta.env.BASE_URL}images/gameScreen.png`, alt: "Screenshot of Game Screen" },
     linkLayout: "column", // buttons stacked next to the image
     links: [
       {
@@ -40,7 +40,7 @@ function Hero() {
   return (
     <div className="hero">
       <img
-        src="/images/HeadShot.png"
+        src={`${import.meta.env.BASE_URL}images/HeadShot.png`}
         alt="Headshot of Thomas"
         className="headshot"
       />
