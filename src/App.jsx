@@ -8,7 +8,7 @@ const projects = [
     links: [
   {
     label: "Our HackOHI/O 2026 Pitch",
-    href: `${import.meta.env.BASE_URL}graphics/Carry-HackOHIO-2026-Pitch.pdf`,
+    href: `../public/graphics/Carry-HackOHIO-2026-Pitch.pdf`,
   },
 ],
   },
