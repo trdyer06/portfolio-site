@@ -1,21 +1,37 @@
 # Thomas Dyer's Software Portfolio
 
-A website displaying my software development projects.
+A website displaying my software development projects, built with React.
+
+**Live site:** https://trdyer06.github.io/portfolio-site/
 
 ## Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/trdyer06/porfolio-site.git
+git clone https://github.com/trdyer06/portfolio-site.git
+cd portfolio-site
 ```
 
-Open `index.html` in browser
+Install dependencies and start the development server
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
 
 ## Tech Stack
 
-- HTML5 - Structure
+- React - UI components
+- Vite - Development server and build tool
 - CSS3 - Styling
+- GitHub Actions - Automatic deployment to GitHub Pages
 
 ## Features
 
@@ -26,7 +42,7 @@ Open `index.html` in browser
 
 ### License
 
-The HTML, CSS, and JavaScript source code in this repository is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+The source code (JSX, JavaScript, HTML, and CSS) in this repository is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
 **However, the following personal assets are explicitly excluded from this license and remain Copyright &copy; 2026 Thomas Dyer. All rights reserved:**
 
