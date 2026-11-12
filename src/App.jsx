@@ -67,10 +67,11 @@ function Hero() {
       />
       <h3>Thomas Dyer - Computer and Information Science Student</h3>
       <p>
-        I am a student at The Ohio State University studying Computer and
-        Information Science with a focus in Game Design and Animation as well as
-        Web Development. I am pursuing a career in Software Development, so I am
-        presenting the work I have completed so far.
+        I’m a Computer and Information Science student at The Ohio State University 
+        blending rigorous backend logic with interactive design. My academic background 
+        is rooted in game design and animation, which has shaped my approach to building 
+        engaging, user-centric web applications. Welcome to my portfolio—here’s a look 
+        at the software I’ve been building.
       </p>
     </div>
   );
@@ -101,7 +102,7 @@ function Project({ project }) {
         <div className="project-content">
           <div className="project-description">
             <p>{description}</p>
-            <p>Technologies Used: {technologies}</p>
+            <p>Tech Stack: {technologies}</p>
           </div>
           <div className="project-details">
             {image && <img src={image.src} alt={image.alt} />}
