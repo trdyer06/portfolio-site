@@ -6,11 +6,11 @@ const projects = [
     technologies: "React Typescript, Next.js 16, Tailwind v4, Git",
     linkLayout: "row", // buttons side by side
     links: [
-  {
-    label: "Our HackOHI/O 2026 Pitch",
-    href: `../public/graphics/Carry-HackOHIO-2026-Pitch.pdf`,
-  },
-],
+      {
+        label: "Our HackOHI/O 2026 Pitch",
+        href: `${import.meta.env.BASE_URL}graphics/Carry HackOHI O 2026 Pitch.pdf`,
+      },
+    ],
   },
   {
     title: "TaskManager Component",
