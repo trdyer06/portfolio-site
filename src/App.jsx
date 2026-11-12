@@ -1,5 +1,18 @@
 const projects = [
   {
+    title: "Carry",
+    description:
+      "During HackOHI/O 2026, my team and I created Carry, a mobile and web app that takes a project description and rubric, and divides the work into smaller tasks with different deadlines and effort requirements so students can divide the work evenly. I developed the front-end logic and design using React Typescript, Next.js 16, and Tailwind v4.",
+    technologies: "React Typescript, Next.js 16, Tailwind v4, Git",
+    linkLayout: "row", // buttons side by side
+    links: [
+      {
+        label: "Our HackOHI/O 2026 Pitch",
+        href: "C:\\Users\\trdye\\OneDrive\\Documents\\GitHub\\portfolio-site\\public\\graphics\\Carry HackOHI O 2026 Pitch.pdf",
+      },
+    ],
+  },
+  {
     title: "TaskManager Component",
     description:
       "Built a task manager using OSU components to organize tasks by name, date, status, and category. Created an implementation called TaskManagerOnSequence, which helped me better understand abstraction and how interfaces connect to concrete implementations. While there is room for improvement, this project was a valuable learning experience and increased my interest in software development.",
