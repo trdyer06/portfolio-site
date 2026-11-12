@@ -77,7 +77,14 @@ function Hero() {
 }
 
 function Project({ project }) {
-  const { title, description, technologies, image, linkLayout, links } = project;
+  const {
+    title,
+    description,
+    technologies,
+    image,
+    linkLayout,
+    links = [],
+  } = project;
 
   const linkButtons = links.map((link) => (
     <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
@@ -98,9 +105,11 @@ function Project({ project }) {
           </div>
           <div className="project-details">
             {image && <img src={image.src} alt={image.alt} />}
-            <div className={linkLayout === "row" ? "row-links" : "column-links"}>
-              {linkButtons}
-            </div>
+            {links.length > 0 && (
+              <div className={linkLayout === "row" ? "row-links" : "column-links"}>
+                {linkButtons}
+              </div>
+            )}
           </div>
         </div>
       </li>
