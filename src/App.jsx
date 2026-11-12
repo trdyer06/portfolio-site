@@ -1,8 +1,16 @@
 const projects = [
   {
+    title: "Student Opportunity Radar",
+    description:
+      "For the Autumn 2026 project in the Collaborative Software Development Club, my team and I are creating a web application that will find and display student opportunities like scholarships, internships, competitions, and more. I have created scrapers to gather data from different online souurces, and I am currently working on scheduling the ingestion of the data into the database.",
+    technologies: "React Typescript, Cheerio, Git",
+    image: { src: `${import.meta.env.BASE_URL}graphics/workInProgress.jpg`, alt: "Work In Progress" },
+    //linkLayout: "row", // buttons side by side
+  },
+  {
     title: "Carry",
     description:
-      "During HackOHI/O 2026, my team and I created Carry, a mobile and web app that takes a project description and rubric, and divides the work into smaller tasks with different deadlines and effort requirements so students can divide the work evenly. I developed the front-end logic and design using React Typescript, Next.js 16, and Tailwind v4.",
+      "During HackOHI/O 2026, my team and I created Carry, a mobile and web app that takes a project description and rubric, and divides the work into smaller tasks with different deadlines and effort requirements so students can divide the work evenly. I developed the front-end logic and user interface that allows students to easily create and manage their tasks.",
     technologies: "React Typescript, Next.js 16, Tailwind v4, Git",
     linkLayout: "row", // buttons side by side
     links: [
